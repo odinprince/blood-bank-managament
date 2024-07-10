@@ -3,7 +3,7 @@
 ---
 ## Screenshots
 ### Homepage
-![homepage snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/homepage-1.png?raw=true)
+![homepage snap](static/screenshot/homepage-1.png)
 
 ### Admin Dashboard
 ![dashboard snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/admindashboard.png?raw=true)
