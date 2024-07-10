@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        .xyz {
+            margin-bottom: 0px;
+            background-image: url('{% static "image/banner-1D.jpg" %}');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .card-header {
+            background-color: #F10606;
+            color: white;
+        }
+
+        .card-body {
+            background-color: #ffe6e6;
+        }
+    </style>
+
+</head>
+
+<body>
+    {% include "blood/navbar.html" %}
+    <br>
+    <section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+        <div class="container text-center">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+      <blockquote class="blockquote text-center mt-2 pt-2 pb-5">
+        <p class="mb-0">"The gift of blood is the gift of life. There is no substitute for human blood."</p>
+        <footer class="blockquote-footer">Dr. Charles Drew, <cite title="Source Title">Blood Bank Pioneer</cite></footer>
+      </blockquote>
+  
+      <div class="row " style="gap:30px;justify-content:center;margin-bottom:20px">
+        <div class="col-md-5">
+          <div class="card mb-4">
+            <div class="card-header" style="color:red;text-align:center">
+              Importance of Blood Donation
+            </div>
+            <div class="card-body">
+              <p class="card-text">Every two seconds, someone in the U.S. needs blood. Your donation can save lives and improve health for those in need.</p>
+              <a href="https://www.google.com/search?q=Importance+of+Blood+Donation" target="_blank" class="btn btn-danger">Learn More</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-5">
+          <div class="card mb-4">
+            <div class="card-header" style="color:red;text-align:center">
+              Who Can Donate Blood?
+            </div>
+            <div class="card-body">
+              <p class="card-text">Most people can donate blood if they are in good health. Regular blood donors are essential for maintaining a stable blood supply.</p>
+              <a href="https://www.google.com/search?q=Who+Can+Donate+Blood" target="_blank" class="btn btn-danger">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include "blood/footer.html" %}
+</body>
+
+</html>
