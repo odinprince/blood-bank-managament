@@ -4,7 +4,7 @@
 ## Screenshots
 ### Homepage
 ![homepage snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/homepage-1.png?raw=true)
-![](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/homepage-2.png?raw=true)
+![ ](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/homepage-2.png?raw=true)
 
 ### Admin Dashboard
 ![dashboard snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/admindashboard.png?raw=true)
